@@ -31,7 +31,7 @@ This is a **Python script** that analyzes log files and summarizes errors by **d
   }
 }
 ```
-##Learning Goals
+## Learning Goals
 
 - Master regex for pattern matching
 
@@ -41,7 +41,7 @@ This is a **Python script** that analyzes log files and summarizes errors by **d
 
 - Build experience with data parsing and aggregation, useful for backend or data tasks
 
-##How to Use
+## How to Use
 
 1. Place your log file in a known location.
 
@@ -57,7 +57,7 @@ python log_analyzer.py
 
 4. Review the printed nested dictionary showing errors per date and type.
 
-##Notes
+## Notes
 
 - Works with logs where dates are formatted as YYYY-MM-DD at the beginning of each line
 
