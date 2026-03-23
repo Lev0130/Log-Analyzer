@@ -31,32 +31,34 @@ This is a **Python script** that analyzes log files and summarizes errors by **d
   }
 }
 ```
-Learning Goals
+##Learning Goals
 
-Master regex for pattern matching
+- Master regex for pattern matching
 
-Practice nested dictionaries for data organization
+- Practice nested dictionaries for data organization
 
-Strengthen file handling in Python (with open(...))
+- Strengthen file handling in Python (with open(...))
 
-Build experience with data parsing and aggregation, useful for backend or data tasks
+- Build experience with data parsing and aggregation, useful for backend or data tasks
 
-How to Use
+##How to Use
 
-Place your log file in a known location.
+1. Place your log file in a known location.
 
-Update the path in the script:
+2. Update the path in the script:
 
+```python
 with open("path/to/your/logfile.log", "r", encoding="utf-8") as file:
-
-Run the script:
-
+```
+3 Run the script:
+```bash
 python log_analyzer.py
+```
 
-Review the printed nested dictionary showing errors per date and type.
+4. Review the printed nested dictionary showing errors per date and type.
 
-Notes
+##Notes
 
-Works with logs where dates are formatted as YYYY-MM-DD at the beginning of each line
+- Works with logs where dates are formatted as YYYY-MM-DD at the beginning of each line
 
-Easily expandable for other log formats or additional filtering
+- Easily expandable for other log formats or additional filtering
